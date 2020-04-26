@@ -9,10 +9,12 @@
 import React from 'react';
 import {View, Text, StyleSheet, SafeAreaView} from 'react-native';
 
+import Home from './screens/Home';
+
 const App = () => (
   <View style={styles.body}>
     <SafeAreaView>
-      <Text>Hello QR</Text>
+      <Home />
     </SafeAreaView>
   </View>
 );
