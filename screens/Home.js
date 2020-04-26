@@ -13,4 +13,8 @@ const Home = () => {
       setQRCodes(qrs.data);
     }
   }, []);
+
+  useEffect(() => {
+    getQRCodes();
+  }, []);
 };
